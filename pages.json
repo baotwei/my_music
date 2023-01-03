@@ -1,0 +1,80 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "我的音乐"
+      }
+    }, {
+      "path": "pages/video/video",
+      "style": {
+        "navigationBarTitleText": "视频",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/personal/personal",
+      "style": {
+        "navigationBarTitleText": "用户中心",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "pages/search/search",
+      "style": {
+        "navigationBarTitleText": "搜索音乐",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/recommendSong/recommendSong",
+      "style": {
+        "navigationBarTitleText": "每日推荐",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/songDetail/songDetail",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    // "navigationBarTitleText": "我的音乐",
+    "navigationBarBackgroundColor": "#d43c33",
+    "backgroundColor": "#F8F8F8"
+  },
+  "uniIdRouter": {},
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d43c33",
+    "backgroundColor": "#fff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/static/images/tabs/tab-home.png",
+        "selectedIconPath": "/static/images/tabs/tab-home-current.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "/static/images/tabs/select.png",
+        "selectedIconPath": "/static/images/tabs/selected.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人中心",
+        "iconPath": "/static/images/tabs/tab-my.png",
+        "selectedIconPath": "/static/images/tabs/tab-my-current.png"
+      }
+    ]
+  }
+}
